@@ -87,3 +87,10 @@ INSERT INTO movies (title, year, show_time) VALUES ('Avengers: Infinity War', 20
 
 SELECT show_time FROM movies WHERE title = 'Iron Man 2';
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
+
+
+-- ## Extension
+
+-- 1.  Research how to delete multiple entries from your table in a single command.
+
+DELETE FROM movies WHERE year = 2015;
